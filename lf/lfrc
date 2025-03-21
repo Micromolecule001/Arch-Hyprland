@@ -1,0 +1,56 @@
+set relativenumber true
+set hidden true
+set ignorecase true
+set icons 
+set previewer ~/.config/lf/preview
+
+# image previewer 
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
+# custom functions 
+
+cmd mkdir ${{
+    printf "Directory Name: "
+    read ans
+    mkdir $ans 
+}}
+
+cmd mkfile ${{
+    printf "File Name: "
+    read ans
+    $EDITOR $ans
+}}
+
+cmd unarchive ${{
+    case "$f" in 
+        *.zip) unzip "$f" ;;
+        *.tar.gz) tar -xzvf "$f" ;;
+        *.tar.bz2) tar -xjvf "$f" ;;
+        *.tar) tar -xvf "$f" ;;
+        *) echo "Unsupported format" ;;
+    esac
+}}
+
+
+
+# remove default mapping 
+
+map d
+map m
+map n
+
+
+
+# add custom mapping
+
+map DD delete
+map x cut
+map mf mkfile
+map md mkdir
+map nu unarchive 
+map gc cd ~/.config
+map gd cd ~/Downloads
+
