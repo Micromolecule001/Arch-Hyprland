@@ -1,3 +1,4 @@
+alacritty/
 CurseForge/
 Electron/
 VirtualBox/
@@ -7,6 +8,7 @@ glib-2.0/
 go/
 gtk-3.0/
 gtk-4.0/
+heroic/
 kde.org/
 libvirt/
 menus/
