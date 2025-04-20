@@ -57,6 +57,9 @@
 			"urgent": "",
 		},
 	},
+	"custom/separator": {
+		"format": " | ",
+	},
 	"tray": {
 		"spacing": 4,
 	},
