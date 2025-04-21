@@ -77,7 +77,7 @@
 	"network": {
 		"format-wifi": "  {essid}",
 		"format-ethernet": "  ",
-		"format-disconnected": " ",
+		"format-disconnected": "  ",
 		"tooltip-format-wifi": " {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
 		"tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
 		"format-linked": "{ifname} (No IP) ",

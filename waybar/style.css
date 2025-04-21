@@ -69,7 +69,7 @@ window#waybar {
 
 #workspaces button.hover {
         color: #7A92A0;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 0.85);
 }
 
 /*-----------------------*/
@@ -81,7 +81,6 @@ tooltip {
 	color: #cdd6f4;
 	border-radius: 2px;
 }
-
 
 #window {
 	color: #cdd6f4;
@@ -103,6 +102,23 @@ tooltip {
         padding: 0px 10px;
 }
 
+#tray menu {
+	background: rgba(8, 8, 8, 0.45);
+        margin-bottom: 5px;
+        border-radius: 2px;
+}
+
+#tray menu * {
+	font-family: CodeNewRoman Nerd Font;
+        font-weight: bold;
+        color: white;
+}
+
+#tray menu *:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 2px;
+}
+
 #language {
         font-weight: bold;
         font-size: 18px;
@@ -110,6 +126,5 @@ tooltip {
 
 #memory {
         font-weight: bold;
-
 }
 
