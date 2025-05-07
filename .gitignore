@@ -30,6 +30,7 @@ QtProject.conf
 dolphinrc
 gtkrc
 gtkrc-2.0
+JetBrains*/
 kdeglobals
 kiorc
 kservicemenurc
