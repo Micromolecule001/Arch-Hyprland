@@ -1,0 +1,24 @@
+baloofileinformationrc
+dconf/
+discord/
+dolphinrc/
+Electron/
+glib-2.0/
+go/
+ibus/
+kde.org/
+libreoffice/
+pavucontrol.ini
+pulse/
+QtProject.conf
+session/
+systemd/
+unity3d/
+'Unknown Organization'/
+user-dirs.dirs
+user-dirs.locale
+waypaper/
+yay/
+zoom.conf
+zoomus.conf
+
