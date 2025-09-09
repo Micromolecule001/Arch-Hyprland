@@ -1,0 +1,126 @@
+
+        /* Good fonts list */
+        /* CodeNewRoman */
+        /* D2CodingLigature */
+
+* {
+	font-family: CodeNewRoman Nerd Font;
+	font-size: 12px;
+        color: white;
+        padding: 0;
+}
+
+window#waybar {
+	background: rgba(8, 8, 8, 0.45);
+	border-radius: 2px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+/*-----------------------*/
+/*---- MODULES GROUP ----*/
+/*-----------------------*/
+
+.modules-right {
+	background: transparent;
+	border-radius: 0px;
+    margin-right: 12px;
+}
+
+.modules-center {
+	background: transparent;
+	margin: 0 0 0 0;
+	border-radius: 20px;
+}
+
+.modules-left {
+	background: transparent;
+	border-radius: 0px;
+    margin-left: 12px;
+}
+
+/*-----------------------*/
+/*---- WORKSPACE PART ---*/
+/*-----------------------*/
+
+#workspaces {
+	padding: 0 2px;
+    font-weight: bold;
+}
+
+#workspaces button {
+        padding: 0px 5px;
+        margin: 0px 3px;
+        border-radius: 2px;
+        transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+}
+
+#workspaces button.active {
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.25);
+
+        min-width: 30px;
+        transition: all 420ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+}
+
+#workspaces button.hover {
+        color: #7A92A0;
+        background-color: rgba(255, 255, 255, 0.85);
+}
+
+/*-----------------------*/
+/*---- PIECES GROUP ----*/
+/*-----------------------*/
+
+tooltip {
+	background: rgba(8, 8, 8, 0.45);
+	color: #cdd6f4;
+	border-radius: 2px;
+}
+
+#window {
+	color: #cdd6f4;
+	font-family: D2CodingLigature Nerd Font;
+	font-size: 10;
+        font-weight: bold;
+}
+
+#clock {
+	margin: 2px 0 0 0;
+	padding: 2px;
+	border-radius: 10px;
+
+	font-family: CodeNewRoman Nerd Font;
+        font-weight: bold;
+}
+
+#tray {
+        padding: 0px 10px;
+}
+
+#tray menu {
+	background: rgba(8, 8, 8, 0.45);
+        margin-bottom: 5px;
+        border-radius: 2px;
+}
+
+#tray menu * {
+	font-family: CodeNewRoman Nerd Font;
+        font-weight: bold;
+        color: white;
+}
+
+#tray menu *:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 2px;
+}
+
+#language {
+        font-weight: bold;
+        font-size: 18px;
+}
+
+#memory {
+        font-weight: bold;
+}
+

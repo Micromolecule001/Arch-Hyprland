@@ -1,0 +1,52 @@
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+    modes: [ combi ];
+    combi-modes: [ window, drun, run ];
+    fullscreen: false;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#window {
+    background-color: @background;
+    anchor:     north;
+    location:   north;
+    width:      100%;
+    padding:    1px;
+    margin:     0px 0px 1055px 288px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [ entry, listview ];
+}
+#listview {
+    background-color: @background;
+    layout:     horizontal;
+    spacing:    5px;
+    lines:      100;
+}
+
+#entry {
+    background-color: @urgent-background;
+    expand:     true;
+}
+
+#element {
+    padding: 0px 4px;
+    background-color: @normal-background;
+}
+
+#element selected {
+    background-color: rgba(0,0,0,0);
+}
+
+#element-text, element-icon {
+  background-color: rgba(0,0,0,0);
+  text-color: inherit;
+}

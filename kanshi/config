@@ -1,0 +1,10 @@
+profile Dock {
+    output eDP-1 disable
+    output HDMI-A-1 mode 1920x1080@144
+}
+
+profile Laptop {
+    output HDMI-A-1 disable
+    output eDP-1 mode 1920x1080@60
+}
+

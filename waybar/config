@@ -1,0 +1,89 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": [
+        "hyprland/workspaces",   
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "tray",
+        "custom/separator",
+        "clock",
+        "custom/separator",
+        "network",
+        "pulseaudio",
+        "battery",
+        "bluetooth",
+    ],
+    "custom/separator": {
+        "format": " | ",
+        "interval": "once",
+        "tooltip": false
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:%e%b %Y (%a) %H:%M}",
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1", // Terminal
+            "2": "2", // Browser
+            "3": "3", // Code
+            "4": "4", // Music
+            "5": "5", // Chat
+            "6": "6", // File manager
+            "7": "7", // Video
+            "8": "8", // Editor
+            "9": "9", // Misc
+            "default": "󰝥", // Default for undefined states
+            "persistent": "󰝥", // Icon for persistent empty workspaces
+            "visible": "󰝥" // Icon for visible but not active workspaces
+        },
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5, 6, 7, 8, 9] // Show workspaces 1-9 on all monitors
+        },
+        "sort-by": "number",
+        "on-click": "activate"
+    },
+    "hyprland/window": {
+       "format": "{}",
+       "max-length": 60,
+       "separate-outputs": false
+    },
+    "bluetooth": {
+        "format": "({device_alias}) ",
+        "tooltip": true,
+        "on-click": "blueman-manager"
+    },
+    "network": {
+        "interval": 10,
+        "format-wifi": "Net:{signalStrength}% ",
+        "format-ethernet": "Net:Connected🖧 ",
+        "format-disconnected": "Net:Disconnected⚠ ",
+        "tooltip": false
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 10,
+        "format": "BAT0:{capacity}% ",
+        "format-charging": "BAT0:{capacity}%(charging) ",
+        "format-critical": "BAT0:{capacity}%(!!!) ",
+        "format-full": "BAT0:{capacity}% ",
+        "states": {
+          "critical": 20
+        },
+        "tooltip": false
+    },
+    "pulseaudio": {
+         "interval": 5,
+         "format": "Vol:{volume}% ",
+         "format-muted": "Vol:Muted 🔇",
+         "tooltip": false
+    },
+}
+

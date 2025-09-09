@@ -1,0 +1,42 @@
+2025/09/07-19:48:54.577 d553 Reusing MANIFEST /home/dmtr/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/09/07-19:48:54.584 d553 Recovering log #659
+2025/09/07-19:48:54.584 d553 Reusing old log /home/dmtr/.config/discord/Local Storage/leveldb/000659.log 
+2025/09/07-19:53:16.469 d554 Level-0 table #663: started
+2025/09/07-19:53:16.516 d554 Level-0 table #663: 1648769 bytes OK
+2025/09/07-19:53:16.532 d554 Delete type=0 #659
+2025/09/07-19:53:16.535 d554 Compacting 4@0 + 1@1 files
+2025/09/07-19:53:16.604 d554 Generated table #664@0: 121 keys, 3243289 bytes
+2025/09/07-19:53:16.605 d554 Compacted 4@0 + 1@1 files => 3243289 bytes
+2025/09/07-19:53:16.620 d554 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/09/07-19:53:16.620 d554 Delete type=2 #654
+2025/09/07-19:53:16.620 d554 Delete type=2 #660
+2025/09/07-19:53:16.620 d554 Delete type=2 #663
+2025/09/07-19:53:16.620 d554 Delete type=2 #656
+2025/09/07-19:53:16.620 d554 Delete type=2 #658
+2025/09/07-20:26:57.672 d554 Level-0 table #666: started
+2025/09/07-20:26:57.687 d554 Level-0 table #666: 15937 bytes OK
+2025/09/07-20:26:57.702 d554 Delete type=0 #662
+2025/09/07-20:43:57.672 d554 Level-0 table #668: started
+2025/09/07-20:43:57.684 d554 Level-0 table #668: 38582 bytes OK
+2025/09/07-20:43:57.696 d554 Delete type=0 #665
+2025/09/07-21:18:57.672 d554 Level-0 table #670: started
+2025/09/07-21:18:57.684 d554 Level-0 table #670: 16175 bytes OK
+2025/09/07-21:18:57.699 d554 Delete type=0 #667
+2025/09/07-21:40:57.672 d554 Level-0 table #672: started
+2025/09/07-21:40:57.687 d554 Level-0 table #672: 27817 bytes OK
+2025/09/07-21:40:57.702 d554 Delete type=0 #669
+2025/09/07-21:40:57.703 d554 Compacting 4@0 + 1@1 files
+2025/09/07-21:40:57.781 d554 Generated table #673@0: 121 keys, 3242804 bytes
+2025/09/07-21:40:57.781 d554 Compacted 4@0 + 1@1 files => 3242804 bytes
+2025/09/07-21:40:57.793 d554 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/09/07-21:40:57.793 d554 Delete type=2 #672
+2025/09/07-21:40:57.794 d554 Delete type=2 #670
+2025/09/07-21:40:57.794 d554 Delete type=2 #666
+2025/09/07-21:40:57.794 d554 Delete type=2 #668
+2025/09/07-21:40:57.794 d554 Delete type=2 #664
+2025/09/07-22:20:57.673 d554 Level-0 table #675: started
+2025/09/07-22:20:57.705 d554 Level-0 table #675: 14160 bytes OK
+2025/09/07-22:20:57.716 d554 Delete type=0 #671
+2025/09/07-22:51:08.597 d554 Level-0 table #677: started
+2025/09/07-22:51:08.612 d554 Level-0 table #677: 27484 bytes OK
+2025/09/07-22:51:08.628 d554 Delete type=0 #674

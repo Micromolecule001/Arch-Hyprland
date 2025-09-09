@@ -1,0 +1,53 @@
+@import "/home/dmtr/.cache/wal/colors-waybar.css";
+
+* {
+    border: none;
+    font-family: HardNerd, monospace;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+window#waybar {
+    background: rgba(21, 21, 25, 0.9);
+    color: @foreground;
+}
+
+/* Активный workspace */
+#workspaces button.active{
+    background: @color4; /* акцент */
+    color: @foreground;
+    border-radius: 0px;
+    padding: 0px 8px;
+    margin: 0px;
+}
+
+#workspaces button:hover {
+    background: @color4; /* акцент */
+    color: @foreground;
+    border-radius: 0px;
+    padding: 0px 8px;
+    margin: 0px;
+}
+
+
+/* Неактивные workspace */
+#workspaces button {
+    padding: 0px 8px;
+    color: @foreground; /* приглушённый */
+}
+
+/* Активное приложение */
+#window {
+    background: @color4; /* акцент */
+    padding: 0px 800 0px 4px;
+    color: @foreground;
+    font-weight: bold;
+}
+
+/* Tray и дата — пастель */
+#tray,
+#clock {
+  color: @foreground;
+}
+
