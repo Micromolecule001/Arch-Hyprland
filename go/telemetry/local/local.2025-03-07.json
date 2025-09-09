@@ -1,0 +1,28 @@
+{
+ "Week": "2025-03-07",
+ "LastWeek": "",
+ "X": 0.7705359953684148,
+ "Programs": [
+  {
+   "Program": "cmd/go",
+   "Version": "go1.24.0",
+   "GoVersion": "go1.24.0",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/goroot:usr-lib-go": 2,
+    "go/invocations": 2,
+    "go/mode:module": 2,
+    "go/platform/host/linux/major-version:6": 2,
+    "go/platform/host/linux/version:6-12": 1,
+    "go/platform/host/linux/version:6-13": 1,
+    "go/platform/target/goamd64:v1": 2,
+    "go/platform/target/goarch:amd64": 2,
+    "go/platform/target/goos:linux": 2,
+    "go/subcommand:version": 2
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}
