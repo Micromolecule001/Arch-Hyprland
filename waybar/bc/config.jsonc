@@ -1,97 +1,22 @@
 {
-    "height": 8,
-	"spacing": 0,
-	"layer": "bottom",
-    "position": "top",
-	"margin-bottom": 0,
-	"margin-left": 0,
-	"margin-right": 0,
-	"modules-left": [
-        "custom/archicon",
-		"hyprland/workspaces",
-	],
-	"modules-center": [
-		"clock",
-		"hyprland/window"
-	],
-	"modules-right": [
-        "hyprland/language",
-		"tray",
-        "battery",
-        "memory",
-        "bluetooth",
-		"network",
-	],
-    "bluetooth": {
-        "icon-size": 25,
-        "format": " 󰂯 ",
-        "format-disabled": "󰂲",
-        "interval": 30,
-        "on-click": "blueman-manager",
-        "on-click-right": "rfkill toggle bluetooth",
-        "tooltip-format": "{}"
-    },
-	"hyprland/window": {
-		"format": "{title}",
-		"icon": true,
-		"icon-size": 16,
-		"max-length": 50,
-		"separate-outputs": true,
-	},
-    "hyprland/language": {
-            "format": "{short} {variant}",
-    },
-	"hyprland/workspaces": {
-		"disable-scroll": true,
-		"all-outputs": true,
-		"on-click": "activate",
-		"format": "{icon}",
-		"format-icons": {
-			"1": "1",
-			"2": "2",
-			"3": "3",
-			"4": "4",
-			"5": "5",
-			"6": "6",
-			"7": "7",
-			"8": "8",
-			"9": "9",
-			"urgent": "",
-		},
-	}, "custom/separator": { "format": " | ",
-	},
-	"tray": {
-		"spacing": 4,
-	},
-	"clock": {
-		"format": " {:%I:%M %p} ",
-		"interval": 60,
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	},
-	"memory": {
-		"format": "{}%  ",
-	},
-	"custom/archicon": {
-		"format": " ",
-	},
-    "battery": {
-        "bat": "BAT0",
-        "interval": 60,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-icons": [" ", " ", " ", " ", " "],
-        "max-length": 25
-    },
-    "network": {
-		"format-wifi": " ",
-		"format-ethernet": " ",
-		"format-disconnected": " ",
-		"tooltip-format-wifi": "  {ifname} @ {essid} \nIP: {ipaddr}\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
-		"tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
-		"format-linked": "{ifname} (No IP) ",
-		"on-click-right": "nm-connection-editor",
-	}
+  "layer": "bottom",
+  "position": "bottom",
+  "margin": "0 200 10 200",
+  "fixed-center": true,
+  "reload_style_on_change": true,
+  "include": ["~/.config/waybar/modules.jsonc"],
+  "modules-left": [
+    "hyprland/window",
+    "group/info"
+  ],
+  
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-right": [
+    "group/control-center",
+    "group/hub"
+    // "group/power"
+  ],
 }
