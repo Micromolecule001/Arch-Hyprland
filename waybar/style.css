@@ -4,7 +4,7 @@
 
 @keyframes blink-critical {
 	to {
-		/*color: @color7;*/
+		/*color: @color0;*/
 		background-color: @critical;
 	}
 }
@@ -25,7 +25,7 @@
 /* The whole bar */
 #waybar {
 	background: rgba(30, 30, 30, 0.25); /* #282828e0 */
-	color: @color7;
+	color: @color0;
 	font-family: UbuntuNerd Mono;
 	font-size: 10pt;
 	font-weight: bold;
@@ -77,7 +77,7 @@
 
 /* Current sway mode (resize etc) */
 #mode {
-	color: @color7;
+	color: @color0;
 	background: @mode;
 }
 
@@ -86,57 +86,58 @@
 	/*font-weight: bold;*/
 	padding-left: 2pt;
 	padding-right: 2pt;
-	color: @color7;
+	color: @color0;
 	background: @unfocused;
 }
 
 /* Inactive (on unfocused output) */
 #workspaces button.visible {
-	color: @color7;
+	color: @color0;
 	background: @inactive;
 }
 
 /* Active (on focused output) */
 #workspaces button.focused {
-	color: @color7;
+	color: @color0;
 	background: @focused;
 }
 
 /* Contains an urgent window */
 #workspaces button.urgent {
-	color: @color7;
+	color: @color0;
 	background: @warning;
 }
 
 /* Style when cursor is on the button */
 #workspaces button:hover {
-	background: @color7;
-	color: @color7;
+	background: @color0;
+	color: @color0;
 }
 
 #window {
-	margin-right: 35pt;
-	margin-left: 35pt;
+        background: @color6;
+        padding: 0 10px;
+        margin: 0px;
 }
 
 #pulseaudio {
 	background: @color1;
-	color: @color7;
+	color: @color0;
 }
 
 #network {
 	background: @color2;
-	color: @color7;
+	color: @color0;
 }
 
 #memory {
 	background: @color3;
-	color: @color7;
+	color: @color0;
 }
 
 #language {
 	background: @color4;
-	color: @color7;
+	color: @color0;
 }
 
 #tray {
@@ -145,12 +146,12 @@
 
 #clock.date {
 	background: @color5;
-	color: @color7;
+	color: @color0;
 }
 
 #clock.time {
 	background: @color6;
-	color: @color7;
+	color: @color0;
 }
 
 #custom-arrow1 {
@@ -189,3 +190,8 @@
 	background: @transparent;
 }
 
+#custom-arrow7 {
+	font-size: 11pt;
+        background: @transparent;
+        color: @color6;
+}

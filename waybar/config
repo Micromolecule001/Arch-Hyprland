@@ -3,8 +3,8 @@
   "position": "bottom",
 
   "modules-left": [
-    "hyprland/workspaces",
-    "hyprland/window"
+    "hyprland/window",
+    "custom/arrow7",
   ],
 
   "modules-right": [
@@ -40,7 +40,7 @@
   "cpu": {
     "interval": 5,
     "tooltip": false,
-    "format": " {usage}%",
+    "format": " {usage}%",
     "format-alt": " {load}",
     "states": {
       "warning": 70,
@@ -49,7 +49,7 @@
   },
 
   "hyprland/language": {
-    "format": " {}",
+    "format": "   {}",
     "min-length": 5,
     "on-click": "hyprctl switchxkblayout $(hyprctl devices -j | jq -r '.keyboards[0].name') next",
     "tooltip": false
@@ -57,7 +57,7 @@
 
   "memory": {
     "interval": 5,
-    "format": " {used:0.1f}G/{total:0.1f}G",
+    "format": "  {used:0.1f}G/{total:0.1f}G",
     "states": {
       "warning": 70,
       "critical": 90
@@ -95,7 +95,7 @@
   },
 
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "{icon}   {volume}%",
     "format-bluetooth": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
@@ -138,5 +138,6 @@
   "custom/arrow4": { "format": "", "tooltip": false },
   "custom/arrow5": { "format": "", "tooltip": false },
   "custom/arrow6": { "format": "", "tooltip": false },
+  "custom/arrow7": { "format": "", "tooltip": false },
 }
 
